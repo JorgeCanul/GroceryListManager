@@ -1,0 +1,5 @@
+<!-- on dblclicking UI Task, it will toggle reminder -->
+<div [ngClass]="{ reminder: item.reminder}" class="item" (dblclick)="onToggle(item)">
+    <h3>{{ item.text }} <a [title]="'Deletes'"><fa-icon [ngStyle]="{color: 'red'}" [icon]="faTimes" (click)="onDelete(item)"></fa-icon></a> </h3>
+    <p>{{ item.day }}</p>
+</div>
