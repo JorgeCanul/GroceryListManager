@@ -1,3 +1,3 @@
+<!-- app-tasks Is the parent, app-tasks calls service for item's data, to delete item and to toggle item reminder -->
 <app-add-task (onAddTask)="addItem($event)"></app-add-task>
-<!-- app-task-item call service for task's data, to delete task and to toggle reminder -->
 <app-task-item  *ngFor="let item of tasks" [item]="item" (onDeleteTask)="deleteItem(item)" (onToggleReminder)="toggleReminder(item)"></app-task-item>

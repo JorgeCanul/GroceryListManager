@@ -1,16 +1,22 @@
 {
-  "tasks": [
+  "items": [
     {
-      "text": "run",
-      "day": "Sunday 20",
-      "reminder": false,
-      "id": 2
+      "text": "Costco fruits",
+      "day": "Sunday 3pm",
+      "reminder": true,
+      "id": 1
     },
     {
-      "text": "mmmmmmm",
-      "day": "Sunday 20",
+      "text": "Safeway, chips",
+      "day": "Sunday 3pm",
       "reminder": false,
       "id": 3
+    },
+    {
+      "text": "Whole Foods",
+      "day": "Sunday 3pm",
+      "reminder": true,
+      "id": 4
     }
   ]
 }

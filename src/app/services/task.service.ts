@@ -12,7 +12,7 @@ import { Task } from '../Task';
   providedIn: 'root'
 })
 export class TaskService {
-private apiUrl = "http://localhost:5000/tasks";
+private apiUrl = "http://localhost:5000/items";
   constructor( private http:HttpClient) { }
   getTasks():Observable<Task[]> {
     return this.http.get<Task[]>(this.apiUrl)
