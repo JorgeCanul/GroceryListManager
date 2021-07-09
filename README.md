@@ -1,10 +1,17 @@
-# PracticeApp
+# Grocery List Manager
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
+
+## Specificts Of Application
+
+This app runs with JSON Server in the backend. You can add more items or remove that will affect the backend and if you reload the browser the data will remain in place. Meanig that the new item will stay in place.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Backend JSON Server
+Run `npm run server` for the backend to run. Navigate to `http://localhost:5000/items`. The app will automatically load and reload if you change any of the items, you can add or remove items.
 
 ## Code scaffolding
 
